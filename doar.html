@@ -19,10 +19,41 @@ grid-area: h;
 footer{
 grid-area: f;
 }
+
 </style>
    
   </head>
   <body>
-    
+    <P>Nome do doador:</P>
+    <input type="text" name="nome" size="100" />
+    <p>Email:</p>
+    <input type="email" name="email" size="100"/>
+    <P>CNPJ:</P>
+    <input type="number" name="CNPJ"  />
+    <P>Endereço:</P>
+    <input type="text" name="endereco"  size="100" />
+    <p>Escolha o tipo de doação</p>
+    <input type="radio" id="1" name="produto" />
+    <label for="produto">Produto</label>
+    <input type="radio" id="2" name="montante" />
+    <label for="montante">Montante</label>
+    <p>Escolha a instituição para realizar a doação</p>
+    <select> 
+      <option value="1" >CRAS I Rute Misato</option>
+      <option value="2">CRAS II Mama  Aurora de Leão - Tata de Leão</option>
+      <option value="3">Núcleo de apoio ao CRAS II</option>
+      <option value="4">CRAS III árcio Henrique Fabiano</option>
+      <option value="5">Núcleo de apoio ao CRAS III</option>
+      <option value="6">CRAS IV Sônia Maria Ferreira</option>
+      <option value="7">Núcleo de apoio ao CRAS IV</option>
+      <option value="8">VREAS Antonio Ferraz de Campos</option>
+      <option value="9">Centro POP - Acolhimento</option>
+    </select>
+    <p>Endereço: </p>
+    <p>Telefone: </p>
+    <p>Email: </p>
+    <button style="border-radius: 10px">Salvar</button>
+
+
   </body>
 </html>
